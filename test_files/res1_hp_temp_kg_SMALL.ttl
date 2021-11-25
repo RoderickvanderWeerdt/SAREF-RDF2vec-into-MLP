@@ -1,0 +1,102 @@
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+saref:Comfort a saref:Task ;
+    saref:isAccomplishedBy <https://interconnectproject.eu/example/OPSDres1_HP> .
+
+saref:MeteringFunction a saref:Function .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T16%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T16:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.5e+01 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T17%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T17:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.381e+01 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T18%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T18:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.714e+00 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T19%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T19:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.417e+00 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T20%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T20:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.704e+00 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T21%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T21:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.547e+00 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T22%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T22:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.43e+00 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T23%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2015-05-22T23:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 9.58e+00 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:relatesToProperty saref:Power .
+
+<http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> a saref:unitOfMeasurement .
+
+<https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> a saref:FeatureOfInterest ;
+    saref:hasMeasurement <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T16%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T17%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T18%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T19%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T20%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T21%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T22%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T23%3A00%3A00Z> ;
+    saref:hasProperty saref:Power .
+
+<https://interconnectproject.eu/example/OPSDres1_HP> a saref:HVAC ;
+    saref:accomplishes saref:Comfort ;
+    saref:hasFunction saref:MeteringFunction ;
+    saref:makesMeasurement <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T16%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T17%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T18%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T19%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T20%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T21%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T22%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_OPSDres1_HP_2015-05-22T23%3A00%3A00Z> ;
+    saref:measuresProperty saref:Power .
+
+saref:Power a saref:Property ;
+    saref:isMeasuredByDevice <https://interconnectproject.eu/example/OPSDres1_HP> ;
+    saref:isPropertyOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential1_heat_pump> .
+
