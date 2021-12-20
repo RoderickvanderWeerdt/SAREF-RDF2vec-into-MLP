@@ -2,7 +2,7 @@
  
 This script can be used to create vector representations from a knowledge graph (KG) using rdf2vec. 
 The KG is assumed to have followed the SAREF ontology [[1]](#SAREF) to describe series of measurements made by smart devices.
-pipeline_rdf2vec_mlp.ipynb provides a more indepth walkthrough.
+[pipeline_rdf2vec_mlp.ipynb](pipeline_rdf2vec_mlp.ipynb) provides a more indepth walkthrough.
 
 The data in the graph consists of energy consumption from several smart devices, originally from the Household dataset from OPDS [[2]](#OPDS) and Historical Weather Data retrieved from World Weather Online.
 
